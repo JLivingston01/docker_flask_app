@@ -8,6 +8,6 @@ This is a template for creating a flask application in a docker container and ex
 
 1. Ensure Docker engine is running on your OS.
 2. Build this repo as a Docker Image:  
-`docker image build -t docker_flask_app`
+`docker image build -t docker_flask_app .`
 3. Run built image as a container:  
 `docker run -p 5000:5000 -d docker_flask_app`
